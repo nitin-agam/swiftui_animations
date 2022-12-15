@@ -12,6 +12,8 @@
 		C73A569A294B7CC30038D0CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73A5699294B7CC30038D0CC /* Assets.xcassets */; };
 		C73A569D294B7CC30038D0CC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C73A569C294B7CC30038D0CC /* Preview Assets.xcassets */; };
 		C73A56A4294B81AA0038D0CC /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A56A3294B81AA0038D0CC /* HomePageModel.swift */; };
+		C73A56A8294B83F90038D0CC /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A56A7294B83F90038D0CC /* AlbumListView.swift */; };
+		C73A56AA294B84070038D0CC /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A56A9294B84070038D0CC /* AlbumModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		C73A5699294B7CC30038D0CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C73A569C294B7CC30038D0CC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C73A56A3294B81AA0038D0CC /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
+		C73A56A7294B83F90038D0CC /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
+		C73A56A9294B84070038D0CC /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,10 +57,11 @@
 		C73A5694294B7CC10038D0CC /* SwiftUI Animations */ = {
 			isa = PBXGroup;
 			children = (
+				C73A56A5294B829F0038D0CC /* Animation View */,
 				C73A5695294B7CC10038D0CC /* SwiftUI_AnimationsApp.swift */,
-				C73A5697294B7CC10038D0CC /* HomePageView.swift */,
 				C73A5699294B7CC30038D0CC /* Assets.xcassets */,
 				C73A569B294B7CC30038D0CC /* Preview Content */,
+				C73A5697294B7CC10038D0CC /* HomePageView.swift */,
 				C73A56A3294B81AA0038D0CC /* HomePageModel.swift */,
 			);
 			path = "SwiftUI Animations";
@@ -68,6 +73,23 @@
 				C73A569C294B7CC30038D0CC /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C73A56A5294B829F0038D0CC /* Animation View */ = {
+			isa = PBXGroup;
+			children = (
+				C73A56A6294B83D60038D0CC /* Spotify Scrollable Header */,
+			);
+			path = "Animation View";
+			sourceTree = "<group>";
+		};
+		C73A56A6294B83D60038D0CC /* Spotify Scrollable Header */ = {
+			isa = PBXGroup;
+			children = (
+				C73A56A7294B83F90038D0CC /* AlbumListView.swift */,
+				C73A56A9294B84070038D0CC /* AlbumModel.swift */,
+			);
+			path = "Spotify Scrollable Header";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,7 +163,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C73A56A4294B81AA0038D0CC /* HomePageModel.swift in Sources */,
+				C73A56AA294B84070038D0CC /* AlbumModel.swift in Sources */,
 				C73A5698294B7CC10038D0CC /* HomePageView.swift in Sources */,
+				C73A56A8294B83F90038D0CC /* AlbumListView.swift in Sources */,
 				C73A5696294B7CC10038D0CC /* SwiftUI_AnimationsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
