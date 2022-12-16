@@ -14,6 +14,7 @@
 		C73A56A4294B81AA0038D0CC /* HomePageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A56A3294B81AA0038D0CC /* HomePageModel.swift */; };
 		C73A56A8294B83F90038D0CC /* AlbumListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A56A7294B83F90038D0CC /* AlbumListView.swift */; };
 		C73A56AA294B84070038D0CC /* AlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C73A56A9294B84070038D0CC /* AlbumModel.swift */; };
+		C7E70552294CBDC200CC1063 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = C7E70551294CBDC200CC1063 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		C73A56A3294B81AA0038D0CC /* HomePageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageModel.swift; sourceTree = "<group>"; };
 		C73A56A7294B83F90038D0CC /* AlbumListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListView.swift; sourceTree = "<group>"; };
 		C73A56A9294B84070038D0CC /* AlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumModel.swift; sourceTree = "<group>"; };
+		C7E70551294CBDC200CC1063 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		C73A56A6294B83D60038D0CC /* Spotify Scrollable Header */ = {
 			isa = PBXGroup;
 			children = (
+				C7E70551294CBDC200CC1063 /* README.md */,
 				C73A56A7294B83F90038D0CC /* AlbumListView.swift */,
 				C73A56A9294B84070038D0CC /* AlbumModel.swift */,
 			);
@@ -150,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7E70552294CBDC200CC1063 /* README.md in Resources */,
 				C73A569D294B7CC30038D0CC /* Preview Assets.xcassets in Resources */,
 				C73A569A294B7CC30038D0CC /* Assets.xcassets in Resources */,
 			);
