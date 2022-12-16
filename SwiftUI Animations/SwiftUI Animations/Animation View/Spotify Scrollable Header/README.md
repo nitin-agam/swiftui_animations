@@ -53,6 +53,7 @@ GeometryReader { proxy in
 In above, the height of the mint view is calculated as half of the coordinate space `yellowView`.
 
 <br>
+
 ### @Environment(\.dismiss) var dismiss
 
 It is an action that use to dismiss the current presentation. The `dismiss` is a property of the Environment object in SwiftUI.
@@ -69,6 +70,7 @@ Before iOS 15 version, we use presentationMode variable for dismissal like:
 
 
 <br>
+
 ### zIndex(_:)
 
 This is an instance method or modifier which is used to control the displaying order of overlapping views.
@@ -99,6 +101,7 @@ In this example, the blue rectangle will be displayed on top of the red rectangl
 
 
 <br>
+
 ### @ViewBuilder
 
 In SwiftUI, `@ViewBuilder` is a attribute that you can use to annotate a function or closure that returns a view. When you use @ViewBuilder, it allows you to build the view by writing the view's structure and layout directly in the body of the function or closure, rather than returning it from the function or closure.
@@ -120,8 +123,10 @@ var loginButton: some View {
 ```
 
 <br>
+
 ### Now you can starting learning this animation.
 
 <br>
+
 #### *Happy Coding 💻*
 
