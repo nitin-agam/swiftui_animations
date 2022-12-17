@@ -10,28 +10,26 @@ import SwiftUI
 struct HomePageView: View {
     
     var body: some View {
-        NavigationView(content: {
-            List(animationArray) { animation in
-                NavigationLink {
-                    switch animation.type {
-                    case .scrollableHeader:
-                        GeometryReader { proxy in
-                            let safeArea = proxy.safeAreaInsets
-                            let size = proxy.size
-                            AlbumListView(safeArea: safeArea, size: size)
-                                .ignoresSafeArea(.container, edges: .top)
-                        }
-                        .preferredColorScheme(.dark)
+        List(animationArray) { animation in
+            NavigationLink {
+                switch animation.type {
+                case .scrollableHeader:
+                    GeometryReader { proxy in
+                        let safeArea = proxy.safeAreaInsets
+                        let size = proxy.size
+                        AlbumListView(safeArea: safeArea, size: size)
+                            .ignoresSafeArea(.container, edges: .top)
                     }
-                } label: {
-                    Text(animation.title)
-                        .padding(.vertical, 8)
+                    .preferredColorScheme(.dark)
                 }
-
+            } label: {
+                Text(animation.title)
+                    .padding(.vertical, 8)
             }
-            .navigationBarTitleDisplayMode(.inline)
-            .navigationTitle("SwiftUI Animations")
-        })
+
+        }
+        .navigationBarTitleDisplayMode(.inline)
+        .navigationTitle("SwiftUI Animations")
     }
 }
 
