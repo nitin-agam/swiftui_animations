@@ -1,5 +1,14 @@
 # Spotify Scrollable Header
 
+
+<p align="left">
+    <video alt="Animation Video" src="https://user-images.githubusercontent.com/12906999/208255130-eb6e36f4-c519-4e18-9caf-435cebcfeb84.mp4"> </p>
+
+
+
+
+
+
 Before diving into code directly, I would recommended to see this page to brush the concepts used in this animation. 
 
 *Note: Highly recommended for beginners in SwiftUI.* 
